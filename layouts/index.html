@@ -1,0 +1,16 @@
+{{ partial "header.html" }}
+<section id="content">
+    <ul class="post-lists">
+        {{ range .Site.RegularPages }}
+        <li class="post-list">
+            <div class="datetime-title">
+                <time>{{ .PublishDate.Format ("Jan 02 2006") }}</time>
+            </div>
+            <div class="datetime-title">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</section>
+{{ partial "footer.html" }}

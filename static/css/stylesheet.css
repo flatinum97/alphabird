@@ -1,0 +1,32 @@
+body {
+    font-family: 'Robot', sans-serif;
+    color: black;
+    margin: auto;
+    max-width: 50em;
+}
+
+ul.post-lists {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+pre {
+    background: #eeeeee;
+    padding: 20px;
+}
+
+#page-title {
+    text-align: center;
+}
+
+.datetime-title {
+    display: inline-block;
+}
+
+#page-title a:hover, .post-list a:hover {
+    text-decoration: underline;
+}
