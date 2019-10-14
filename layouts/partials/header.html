@@ -8,6 +8,10 @@
 
         <link rel="stylesheet" href="/css/stylesheet.css">
 
+        {{ with .Site.Params.favicon }}
+        <link rel="shortcut icon" href="{{ . }}">
+        {{ end }}
+
         {{ with .Site.GoogleAnalytics }}
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149827973-1"></script>
