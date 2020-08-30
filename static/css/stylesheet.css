@@ -17,6 +17,9 @@ a {
 pre {
     background: #eeeeee;
     padding: 20px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 h1 {
